@@ -324,8 +324,8 @@ $message="
 </html>";
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headers .= 'From: info@sjaalumni.com' . "\r\n";
-mail("harshitbhatt14@yahoo.com, treasurer@sjaalumni.com, secretary@sjaalumni.com , juneja@lawyer.com, praveenchandhok@gmail.com","Alumni Information",$message,$headers);
+$headers .= 'From: xyz@xyz.com' . "\r\n";
+mail("xyz@example.com","Alumni Information",$message,$headers);
 ?>
 <tr>
 <td valign="middle" colspan="2" height="24" align="center"  width="750">
